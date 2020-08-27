@@ -3,5 +3,15 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 微軟正黑體;
-    color: blue;
+}
+
+#banner {
+    width: 100%;
+    /* vh 螢幕高度 */
+    height: 100hv;
+    background-image: url(./img/banner.jpg);
+    /* 背景-尺寸：填滿 - 50%、500px  */
+    background-size:cover;
+
+
 }
