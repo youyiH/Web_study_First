@@ -5,6 +5,10 @@
     font-family: 微軟正黑體;
 }
 
+body {
+    background-color: #f0ffff;
+}
+
 /* 橫幅 */
 #banner {
     width: 100%;
@@ -68,6 +72,51 @@
 
 /* 最新消息 */
 #news {
-    height: 500px;
-    background: #faebd7;
+    width: 1200px;
+    margin: 0 auto;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* 格線間隙 */
+    grid-gap: 50px;
+    padding: 150px 0;
+    text-align: center;
+}
+
+#news > div {
+    background: #fff0f5;
+}
+
+#news h3 {
+    color: #778899;
+}
+
+#news p {
+    padding: 30px;
+    text-align: left;
+    line-height: 2;
+}
+
+#news #news-left {
+    height: 350px;
+    background-image:url(./img/news-left.jpg);
+}
+
+#news #news-right {
+    height: 350px;
+    background-image: url(./img/news-right.jpg);
+}
+
+/* 按鈕樣式 */
+a.button {
+    text-decoration: none;
+    color: #aaa;
+    border: 1px solid #000;
+    padding: 10px 50px;
+
+}
+
+a.button:hover {
+    color: #f0ffff;
+    background: #000;
 }
