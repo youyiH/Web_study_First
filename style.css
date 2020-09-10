@@ -22,13 +22,13 @@ body {
     background-attachment: fixed;
 
 }
-
-#banner nav {
+/* 首頁 關於我 導覽列 */
+#banner nav, #banner-about nav {
     padding: 30px;
 
 }
 
-#banner a {
+#banner a, #banner-about a{
     color: brown;
     /* 文字-裝飾：無 */
     text-decoration: none;
@@ -38,7 +38,7 @@ body {
 
 }
 
-#banner a:hover {
+#banner a:hover, #banner-about a:hover{
     color: whitesmoke;
 }
 
@@ -236,8 +236,25 @@ footer p {
     width: 100%;
     /* vh 螢幕高度 */
     height: 400px;
-    background-image: url(./img/about.jpg);
+    background-image: url(./img/about2.jpg);
     /* 背景-尺寸：填滿 - 50%、500px  */
     background-size: cover;
     /* 背景 - 附著：固定 */
     background-attachment: fixed;
+}
+
+#banner-about nav {
+    backdrop-filter: opacity(35%);
+}
+
+#banner-about h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 100;
+    letter-spacing: 20px;
+    padding-left: 20px;
+    line-height: 20vh;
+    backdrop-filter: opacity(35%);
+    height: 30.5vh;
+
+}
