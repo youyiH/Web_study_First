@@ -258,3 +258,42 @@ footer p {
     height: 30.5vh;
 
 }
+
+/* 關於我內文 */
+#about-content {
+    width: 1200px;
+    margin: 0 auto;
+    background: #white;
+    padding: 30px;
+    margin-top: 100px;
+}
+
+#about-content h3 {
+    text-align: center;
+    padding: 20px;
+}
+
+#about-content hr {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#about-content h1 {
+    text-align: center;
+    padding: 30px;
+}
+
+#about-content #about-1 {
+    height: 350px;
+    background-image: url(./img/about-1.jpg);
+}
+
+#about-content #about-2 {
+    height: 350px;
+    background-image: url(./img/about-2.jpg);
+}
+
+#about-content #about-3 {
+    height: 350px;
+    background-image: url(./img/about-3.jpg);
+}
