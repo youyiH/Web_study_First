@@ -229,3 +229,15 @@ footer p {
     letter-spacing: 3px;
     padding-left: 3px;
 }
+
+/* 關於我分頁面 */
+/* 橫幅 */
+#banner-about {
+    width: 100%;
+    /* vh 螢幕高度 */
+    height: 400px;
+    background-image: url(./img/about.jpg);
+    /* 背景-尺寸：填滿 - 50%、500px  */
+    background-size: cover;
+    /* 背景 - 附著：固定 */
+    background-attachment: fixed;
