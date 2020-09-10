@@ -230,6 +230,17 @@ footer p {
     padding-left: 3px;
 }
 
+footer h2 a {
+    text-decoration: none;
+    color: #white;
+    transition: 0.5s;
+}
+
+footer h2 a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
 /* 關於我分頁面 */
 /* 橫幅 */
 #banner-about {
