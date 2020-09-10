@@ -23,12 +23,12 @@ body {
 
 }
 /* 首頁 關於我 導覽列 */
-#banner nav, #banner-about nav {
+#banner nav, #banner-about nav,#banner-contact nav {
     padding: 30px;
 
 }
 
-#banner a, #banner-about a{
+#banner a, #banner-about a,#banner-contact a{
     color: brown;
     /* 文字-裝飾：無 */
     text-decoration: none;
@@ -38,7 +38,7 @@ body {
 
 }
 
-#banner a:hover, #banner-about a:hover{
+#banner a:hover, #banner-about a:hover, #banner-contact a:hover{
     color: whitesmoke;
 }
 
@@ -254,11 +254,11 @@ footer h2 a:hover {
     background-attachment: fixed;
 }
 
-#banner-about nav {
+#banner-about nav, #banner-contact nav{
     backdrop-filter: opacity(35%);
 }
 
-#banner-about h2 {
+#banner-about h2, #banner-contact h2 {
     text-align: center;
     font-size: 36px;
     font-weight: 100;
@@ -308,3 +308,14 @@ footer h2 a:hover {
     height: 350px;
     background-image: url(./img/about-3.jpg);
 }
+
+/* 連絡我橫幅 */
+#banner-contact {
+    width: 100%;
+    /* vh 螢幕高度 */
+    height: 400px;
+    background-image: url(./img/contact2.jpg);
+    /* 背景-尺寸：填滿 - 50%、500px  */
+    background-size: cover;
+    /* 背景 - 附著：固定 */
+    background-attachment: fixed;
